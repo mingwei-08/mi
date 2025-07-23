@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>柴犬網頁</title>
+    <!-- 連結到外部的 style.css 檔案 -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="ranbow-linear-gradient">mingwei的可愛柴犬介紹</h1>
+
+      <a href="https://www.google.com.tw" target="_blank">
+        <figure>
+          <img
+            class="main-image"
+            src="https://www.hotpets.com.tw/wp-content/uploads/2017/11/%E6%9F%B4%E7%8A%ACShibainu-675x372.jpg"
+            alt="一隻可愛的柴犬，點擊圖片可以前往柴犬新聞頁面。"
+          />
+        </figure>
+      </a>
+    </header>
+    <main>
+      <!-- 已將個人資訊改為表格格式 -->
+      <table class="info-table">
+        <tbody>
+          <tr>
+            <td class="info-label"><h3>特長</h3></td>
+            <td class="info-content">
+              <ul>
+                <li>颱風天出門玩耍</li>
+                <li>用無辜的眼神討零食</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td class="info-label"><h3>簡介</h3></td>
+            <td class="info-content">
+              <p>你好，我是一隻<span class="red">可愛小柴犬</span></p>
+              <p>歡迎追蹤認識我~~</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="info-label"><h3>學歷</h3></td>
+            <td class="info-content">
+              <ul>
+                <li>柴柴學院</li>
+              </ul>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <section>
+        <h3>每日行程</h3>
+        <table class="schedule-table">
+          <thead>
+            <tr>
+              <th>上午</th>
+              <th>中午</th>
+              <th>下午</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>早餐</td>
+              <td>午餐</td>
+              <td>晚餐</td>
+            </tr>
+            <tr>
+              <td>散步</td>
+              <td>吃飯</td>
+              <td>睡覺</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="form-section">
+        <h3>領養我！</h3>
+        <form action="">
+          <div class="form-group inline-group">
+            <label>這隻柴犬好嗎？</label>
+            <label for="radio-yes">
+              <input type="radio" id="radio-yes" name="is_good" value="是" /> 是
+            </label>
+            <label for="radio-no">
+              <input type="radio" id="radio-no" name="is_good" value="否" />
+              否
+            </label>
+          </div>
+
+          <div class="form-group">
+            <label for="username">您的姓名</label>
+            <input
+              type="text"
+              id="username"
+              name="username"
+              placeholder="例如: 王柴柴"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="tel">聯絡電話</label>
+            <input
+              type="number"
+              id="tel"
+              name="tel"
+              placeholder="請輸入您的電話"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="country">您所在的國家</label>
+            <select name="country" id="country">
+              <option value="">--請選擇--</option>
+              <option value="taiwan">台灣</option>
+              <option value="japan">日本</option>
+              <option value="usa">美國</option>
+              <option value="china">中國</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="note">想對我說的話</label>
+            <textarea
+              id="note"
+              name="note"
+              rows="4"
+              placeholder="我很乖，快帶我回家..."
+            ></textarea>
+          </div>
+          <div class="triangle-down"></div>
+          <button type="submit" class="my-btn">送出申請</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
