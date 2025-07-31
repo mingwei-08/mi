@@ -1,6 +1,6 @@
-console.log("hi");
-let a = 15
-let b = 20;
+// console.log("hi");
+// let a = 15
+// let b = 20;
 // let temp=a
 // a=b
 // b=temp
@@ -49,8 +49,55 @@ let b = 20;
 //     console.log("my name is wi " + name);
 //     saymyname("wi");
 // }
-let sum=0
-for (let i = 1; i <= 100; i++) {
-    sum += i
-}
-console.log(sum);
+// let sum=0
+// for (let i = 1; i <= 100; i++) {
+//     sum += i
+// }
+// console.log(sum);
+
+// 方法/判斷
+// // 判斷閏年
+// window.onload = function () {
+//   console.log(document.querySelector("#year"))
+//   document.querySelector("#year_btn").addEventListener("click", function () {
+//     const year = parseInt(document.querySelector("#year").value)
+//     //該年份為400的倍數，或該年份為4的倍數但不是100的倍數
+//       let result
+//     if (year % 400 == 0 || (year % 4 == 0 && year % 100 != 0)) {
+//       result = "閏年"
+//     } else {
+//       result = "不是閏年"
+//     }
+//     console.log(year)
+//     document.querySelector("#answer").innerHTML = result
+//   })
+// }
+
+// const istriangle = function (a, b, c) {
+//   return a + b > c && a + c > b && b + c > a;
+// };
+// // 呼叫函式並印出結果
+// console.log(istriangle(1, 2, 3)); // 在 Console 看到 "false"
+// console.log(istriangle(3, 4, 5)); // 在 Console 看到 "true"
+
+//計算BMI
+// function calculateBMI (weight, height) {
+//   // 體重  / 身高平方 (M)
+//   return weight / (height * height); 
+// };
+// const myBMI = calculateBMI(60, 1.75);
+// console.log(myBMI);
+
+//判斷大小的函式
+// const whichIsBigger = function (a, b) {
+//     if (a > b) {
+//         return a;
+//     } else if (a < b) {
+//         return b;
+//     } else {
+//          }
+// };
+// const result = whichIsBigger(11, 5);
+// console.log(result);
+
+//用for迴圈做99乘法表
